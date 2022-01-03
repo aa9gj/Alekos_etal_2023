@@ -5,7 +5,7 @@ library(tidyverse)
 library(data.table)
 
 ###pairwise analysis  
-CountData <- read.csv("", row.names = 1)
+CountData <- read.csv("change", row.names = 1)
 ColData <- read.csv("", row.names = 1)
 ColData$Batch <- as.factor(ColData$Batch)
 # Reorder the columns of the count data
